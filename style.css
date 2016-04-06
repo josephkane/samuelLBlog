@@ -1,0 +1,122 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*----------------------
+BASIC SELECTORS
+----------------------*/
+
+body {
+  background-color: lightgrey;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
+
+h3  {
+  font-style: italic;
+}
+
+img {
+  width: 50%;
+}
+
+article {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  border-bottom: solid 2px darkgrey;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+
+
+/*----------------------
+CLASS SELECTORS
+----------------------*/
+
+.mrGlassQuote,
+.agentFlynnQuote {
+  float: right;
+  width: 50%;
+  vertical-align: top;
+  margin-top: 0;
+}
+
+
+.julesWinnfieldQuote,
+.lazarusRedQuote {
+  float: left;
+  width: 50%;
+  vertical-align: top;
+  margin-top: 0;
+}
+
+.mainFooter {
+  font-size: 1.3em;
+  background-color: darkgrey;
+  text-align: center;
+  padding: 5px 0;
+} 
+
+
+
+/*----------------------
+ID SELECTORS
+----------------------*/
+
+
+#mainHeader {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#mrGlass,
+#agentFlynn {
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
+
+#julesWinnfield,
+#lazarusRedd {
+  float: right;
+  padding-left: 15px;
+  padding-bottom: 25px;
+}
+
+
+
+
+
+/*----------------------
+FLOAT CLEARFIX
+----------------------*/
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
